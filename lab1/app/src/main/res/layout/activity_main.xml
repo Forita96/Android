@@ -9,24 +9,29 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
         android:text="Выберите активность:">
     </TextView>
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
         <Button
             android:id="@+id/button1"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:text="Вторая активность">
+            android:background="@color/colorPrimaryDark"
+            android:text="Использование потока">
         </Button>
         <Button
             android:id="@+id/button2"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:text="Третья активность">
+            android:background="@color/colorPrimary"
+            android:text="Разрешение на контакты">
         </Button>
 
     </LinearLayout>
